@@ -38,7 +38,7 @@ import com.google.common.base.Throwables;
  * agent.sinks.cluster-sink.channel = <your_channel>
  * agent.sinks.cluster-sink.type = BigQuerySink
  * agent.sinks.cluster-sink.batchSize = 100
- * agent.sinks.cluster-sink.clientId = 769082761863.apps.googleusercontent.com
+ * agent.sinks.cluster-sink.clientId = <project_id>.apps.googleusercontent.com
  * agent.sinks.cluster-sink.clientSecret = <your_client_secret>
  * agent.sinks.cluster-sink.accessToken = <your_access_token>
  * agent.sinks.cluster-sink.refreshToken = <your_refresh_token>
