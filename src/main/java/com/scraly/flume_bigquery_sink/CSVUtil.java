@@ -6,7 +6,7 @@ import java.util.EnumMap;
 import java.util.Scanner;
 
 /**
- * When adding a new version, don't forget to update the VERSION_LATEST constant, used in CleanUpPostProcessor
+ * When adding a new version, don't forget to update the VERSION_LATEST constant
  * 
  */
 public class CSVUtil {
