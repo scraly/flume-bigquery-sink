@@ -3,7 +3,8 @@ An Apache Flume Sink implementation to publish data to Google BigQuery
 
 ## Configuration of Google BigQuery Sink:
 
-* Edit your flume.conf:
+>Edit your flume.conf:
+
     # properties of cluster-sink
     agent.sinks.cluster-sink.channel = <your_channel>
     agent.sinks.cluster-sink.type = BigQuerySink
@@ -17,8 +18,9 @@ An Apache Flume Sink implementation to publish data to Google BigQuery
     agent.sinks.cluster-sink.datasetId = <your_dataset>
     agent.sinks.cluster-sink.projectId = <your_project_id>
     
-* Edit BigQueryManager class:
+>Edit BigQueryManager class:
+
     private static final String PROJECT_ID = "112233445566"; // change with your google cloud projectId
     private static final String DATASET = "toto"; //change with your google bigquery dataset
     
-* Change LogField and CSVUtil classes in order to tell to the BigQuery sink what is the bq table schema
+>Change LogField and CSVUtil classes in order to tell to the BigQuery sink what is the bq table schema
